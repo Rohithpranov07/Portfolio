@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 215 28% 5%;
+    --foreground: 213 14% 80%;
+
+    --card: 215 22% 11%;
+    --card-foreground: 213 14% 80%;
+
+    --popover: 215 22% 11%;
+    --popover-foreground: 213 14% 80%;
+
+    --primary: 137 55% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 19% 15%;
+    --secondary-foreground: 213 14% 80%;
+
+    --muted: 215 19% 15%;
+    --muted-foreground: 214 12% 56%;
+
+    --accent: 137 55% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 15% 20%;
+    --input: 215 15% 20%;
+    --ring: 137 55% 36%;
+
+    --radius: 0.5rem;
+
+    --glow-primary: 0 0 40px hsla(137, 55%, 36%, 0.3);
+    --glow-primary-strong: 0 0 80px hsla(137, 55%, 36%, 0.2), 0 0 160px hsla(137, 55%, 36%, 0.1);
+
+    --sidebar-background: 215 22% 8%;
+    --sidebar-foreground: 213 14% 80%;
+    --sidebar-primary: 137 55% 36%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 19% 15%;
+    --sidebar-accent-foreground: 213 14% 80%;
+    --sidebar-border: 215 15% 20%;
+    --sidebar-ring: 137 55% 36%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background-color: hsla(137, 55%, 36%, 0.3);
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .text-gradient-green {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(137, 55%, 45%), hsl(137, 70%, 55%));
+  }
+
+  .glow-green {
+    box-shadow: var(--glow-primary);
+  }
+
+  .glow-green-strong {
+    box-shadow: var(--glow-primary-strong);
+  }
+
+  .border-glow {
+    border: 1px solid hsla(137, 55%, 36%, 0.3);
+  }
+
+  .device-shadow {
+    box-shadow: 0 25px 60px -12px rgba(0, 0, 0, 0.6), 0 0 40px rgba(35, 134, 54, 0.08);
+  }
+
+  .grid-bg {
+    background-image: 
+      linear-gradient(hsla(215, 15%, 20%, 0.4) 1px, transparent 1px),
+      linear-gradient(90deg, hsla(215, 15%, 20%, 0.4) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}
