@@ -23,10 +23,9 @@ function Chapter({
 }
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Twitter, label: "Twitter", href: "#" },
-  { icon: Mail, label: "Email", href: "mailto:hello@example.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/Rohithpranov07" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/rohith-pranov" },
+  { icon: Mail, label: "Email", href: "mailto:rohithpranov.v2024@vitstudent.ac.in" },
 ];
 
 export default function CinematicPortfolio({ projects }: { projects: DeckProject[] }) {
@@ -80,22 +79,27 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                   className="lg:col-span-7"
                   style={{ perspective: "1200px" }}
                 >
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-glow bg-secondary/40 backdrop-blur mb-8 font-mono text-sm text-muted-foreground">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-glow bg-black/80 backdrop-blur-xl shadow-lg mb-8 font-mono text-sm text-muted-foreground">
                     <Terminal className="w-4 h-4 text-primary" />
                     <span className="text-primary">$</span>
                     <span>git show</span>
-                    <span className="text-primary">HEAD</span>
-                    <span className="text-muted-foreground/70">--stat</span>
+                    <span className="text-primary">rohith</span>
+                    <span className="text-muted-foreground/70">--profile</span>
                   </div>
 
                   <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.02]">
-                    <span className="text-foreground">Cinematic </span>
-                    <span className="text-gradient-green">3D Portfolio</span>
-                    <span className="text-foreground">.</span>
+                    <span className="text-foreground">Developer Journey</span>
+                    <span className="text-foreground"> in </span>
+                    <span className="text-gradient-green">3D</span>
+                    <span className="block mt-2 text-green-500 font-bold text-6xl">Rohith Pranov</span>
                   </h1>
 
+                  <div className="mt-4 font-mono text-sm text-primary/90">
+                     Full Stack Developer • 3D Web Creator • AI Explorer
+                  </div>
+
                   <p className="mt-6 text-muted-foreground text-lg md:text-xl max-w-2xl">
-                    An immersive git-themed experience: scroll through commits, branches, and merges — every section staged in 3D space.
+                    An immersive developer journey showcasing my projects, skills, and growth across full-stack development, 3D web experiences, and AI-powered applications.
                   </p>
 
                   <div className="mt-10 flex flex-wrap gap-4">
@@ -120,7 +124,7 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                   transition={{ delay: 0.15, duration: 0.9 }}
                   className="lg:col-span-5"
                 >
-                  <div className="rounded-2xl bg-card/35 border-glow backdrop-blur-md p-6 glow-green-strong">
+                  <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-6 glow-green-strong">
                     <div className="flex items-center justify-between pb-3 border-b border-border/60">
                       <span className="font-mono text-xs text-muted-foreground">git status</span>
                       <span className="font-mono text-xs text-primary">clean</span>
@@ -129,14 +133,19 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                       <div>
                         <span className="text-primary">On branch</span> main
                       </div>
-                      <div>Your branch is up to date with <span className="text-primary">'origin/main'</span>.</div>
-                      <div className="mt-3 text-muted-foreground/70">
-                        Scroll to navigate the repo.
+                      <div className="mt-2 text-foreground/90">
+                        Building immersive full-stack and 3D web experiences
+                      </div>
+                      <div className="mt-1 text-muted-foreground/80">
+                        Focused on AI-powered applications and modern UI engineering
+                      </div>
+                      <div className="mt-3 text-primary animate-pulse">
+                        Scroll to explore my journey
                       </div>
                       <div className="mt-6 rounded-xl bg-secondary/40 border border-border/60 p-4">
                         <div className="text-xs text-muted-foreground/70">Tip</div>
                         <div className="mt-1 text-foreground">
-                          This page uses a fixed 3D scene + scroll-driven camera for a “cinematic commit walkthrough”.
+                          This portfolio uses a cinematic 3D environment with scroll-driven motion to present my developer growth like a real Git workflow.
                         </div>
                       </div>
                     </div>
@@ -148,25 +157,25 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
             <Chapter id="about">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                 <div className="lg:col-span-6">
-                  <div className="rounded-2xl bg-card/35 border-glow backdrop-blur-md p-7">
+                  <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
                     <div className="font-mono text-xs text-muted-foreground mb-3">
                       <span className="text-primary">$</span> git diff --staged
                     </div>
                     <h2 className="text-4xl md:text-5xl font-bold">
-                      About <span className="text-gradient-green">the work</span>
+                      About <span className="text-gradient-green">My Work</span>
                     </h2>
                     <p className="mt-4 text-muted-foreground text-lg">
-                      I build fast, polished apps with strong UI systems, careful motion, and “developer-storytelling” details.
+                      I design and develop real-world full-stack applications, immersive 3D web experiences, and AI-powered tools that solve problems and deliver smooth, modern user experiences — with a strong focus on performance, scalability, and clean engineering.
                     </p>
 
                     <div className="mt-6 grid grid-cols-2 gap-3 font-mono text-sm">
                       {[
-                        "+ UI Systems / Design Tokens",
-                        "+ 3D + Motion Direction",
-                        "+ Performance-first Frontend",
-                        "+ Full-stack Delivery",
-                        "+ DX: tooling, CI, quality",
-                        "+ Clean architecture",
+                        "+ Full-Stack Application Development",
+                        "+ Immersive 3D Web Experiences (Three.js)",
+                        "+ AI-Powered Tools & Automation",
+                        "+ High-Performance Frontend Engineering",
+                        "+ Scalable Backend Systems",
+                        "+ Modern UI/UX Design",
                       ].map((line) => (
                         <div key={line} className="rounded-lg bg-secondary/35 border border-border/60 px-3 py-2 text-foreground">
                           <span className="text-primary">{line.slice(0, 1)}</span>
@@ -178,16 +187,16 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                 </div>
 
                 <div className="lg:col-span-6">
-                  <div className="rounded-2xl bg-card/30 border-glow backdrop-blur-md p-7">
+                  <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
                     <div className="font-mono text-xs text-muted-foreground mb-4">
                       <span className="text-primary">$</span> git log --oneline --graph
                     </div>
                     <div className="space-y-3 font-mono text-sm">
                       {[
-                        ["feat", "cinematic scroll + 3D scenes"],
-                        ["chore", "polish design system + tokens"],
-                        ["perf", "optimize render + animation budget"],
-                        ["fix", "edge cases + responsive layouts"],
+                        ["feat", "full-stack platforms with auth & dashboards"],
+                        ["feat", "interactive 3D web projects & portfolios"],
+                        ["feat", "AI tools for productivity & automation"],
+                        ["perf", "optimized apps for speed & scalability"],
                       ].map(([tag, msg], i) => (
                         <div key={i} className="flex items-center gap-3">
                           <span className="text-primary">{gitHash}</span>
@@ -199,7 +208,7 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                       ))}
                     </div>
                     <div className="mt-6 text-muted-foreground text-sm">
-                      The 3D background is not “just decoration” — it’s mapped to scroll to create chapters (intro → branches → merge → connect).
+                      My development journey is defined by continuous problem-solving — building robust solutions that grow from initial prototypes into scalable, real-world products.
                     </div>
                   </div>
                 </div>
@@ -211,7 +220,7 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
             </Chapter>
 
             <Chapter id="projects">
-              <div className="rounded-2xl bg-card/25 border-glow backdrop-blur-md p-7">
+              <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
                 <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
                   <div>
                     <div className="font-mono text-xs text-muted-foreground mb-2">
@@ -233,24 +242,24 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
             <Chapter id="merge">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                 <div className="lg:col-span-6">
-                  <div className="rounded-2xl bg-card/35 border-glow backdrop-blur-md p-7">
+                  <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
                     <div className="font-mono text-xs text-muted-foreground mb-3">
-                      <span className="text-primary">$</span> git merge feature/cinematic-scroll
+                      <span className="text-primary">$</span> git merge feature/production-ready
                     </div>
                     <h2 className="text-4xl md:text-5xl font-bold">
-                      Branches <span className="text-gradient-green">→</span> Merge
+                      Ideas <span className="text-gradient-green">→</span> Production
                     </h2>
                     <p className="mt-4 text-muted-foreground text-lg">
-                      I love building in chapters: explore ideas in branches, validate with real users, then merge with confidence.
+                      I develop projects in structured stages — experimenting with new ideas, building features incrementally, testing thoroughly, and refining until they’re production-ready and user-focused.
                     </p>
                     <div className="mt-6 rounded-xl bg-secondary/40 border border-border/60 p-4 font-mono text-sm">
                       <div className="text-muted-foreground/70">Checks</div>
                       <div className="mt-2 grid grid-cols-1 gap-2">
                         {[
-                          "✓ lint",
-                          "✓ typecheck",
-                          "✓ tests",
-                          "✓ perf budget",
+                          "✓ Code quality & linting",
+                          "✓ Type safety & validation",
+                          "✓ Feature testing",
+                          "✓ Performance optimization",
                         ].map((t) => (
                           <div key={t} className="text-foreground">
                             <span className="text-primary">{t.slice(0, 1)}</span>
@@ -263,18 +272,19 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                 </div>
 
                 <div className="lg:col-span-6">
-                  <div className="rounded-2xl bg-card/30 border-glow backdrop-blur-md p-7">
+                  <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
                     <div className="font-mono text-xs text-muted-foreground mb-3">
                       <span className="text-primary">$</span> git log --decorate --graph --all
                     </div>
                     <div className="font-mono text-sm text-muted-foreground leading-relaxed">
-                      <div className="text-foreground">*   merge: cinematic scroll story</div>
-                      <div>* | feat: 3D camera path + repo tunnel</div>
-                      <div>* | feat: tabbed project deck</div>
-                      <div>* | perf: smooth scroll + motion budget</div>
+                      <div className="text-foreground">*   merge: production release v1.0</div>
+                      <div>* | feat: core platform features & dashboards</div>
+                      <div>* | feat: AI integrations & smart automation</div>
+                      <div>* | feat: interactive UI & 3D experiences</div>
+                      <div>* | perf: performance tuning & scalability</div>
                       <div className="text-foreground">|/</div>
                       <div className="text-muted-foreground/70">
-                        Keep scrolling — the 3D scene behind you is now converging into a single timeline.
+                        My workflow is iterative and quality-focused — transforming concepts into reliable, high-performance applications.
                       </div>
                     </div>
                   </div>
@@ -285,7 +295,7 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
             <Chapter id="contact">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                 <div className="lg:col-span-7">
-                  <div className="rounded-2xl bg-card/35 border-glow backdrop-blur-md p-7">
+                  <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
                     <div className="font-mono text-xs text-muted-foreground mb-3">
                       <span className="text-primary">$</span> echo "let’s ship"
                     </div>
@@ -293,7 +303,7 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                       Let’s <span className="text-gradient-green">Connect</span>
                     </h2>
                     <p className="mt-4 text-muted-foreground text-lg">
-                      Want a portfolio like this, a product UI system, or a full app shipped end-to-end? Ping me.
+                      Interested in collaborating, internships, or full-stack development opportunities? Feel free to connect — I’m always open to learning, building, and contributing to impactful projects.
                     </p>
 
                     <div className="mt-8 flex flex-wrap gap-4">
@@ -301,7 +311,9 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                         <a
                           key={label}
                           href={href}
-                          className="inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-secondary/45 border-glow hover:bg-secondary transition-all"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-secondary/90 border-glow hover:bg-secondary transition-all"
                         >
                           <Icon className="w-5 h-5 text-primary" />
                           <span className="font-mono text-sm text-foreground">{label}</span>
@@ -312,19 +324,19 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                 </div>
 
                 <div className="lg:col-span-5">
-                  <div className="rounded-2xl bg-card/30 border-glow backdrop-blur-md p-7">
+                  <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
                     <div className="font-mono text-xs text-muted-foreground mb-3">
                       <span className="text-primary">$</span> git remote -v
                     </div>
                     <div className="font-mono text-sm text-muted-foreground leading-relaxed">
                       <div>
-                        origin <span className="text-primary">github.com/you/portfolio</span> (fetch)
+                        origin <span className="text-primary">github.com/Rohithpranov07</span> (fetch)
                       </div>
                       <div>
-                        origin <span className="text-primary">github.com/you/portfolio</span> (push)
+                        origin <span className="text-primary">linkedin.com/in/rohith-pranov</span> (push)
                       </div>
                       <div className="mt-6 text-muted-foreground/70">
-                        Replace the placeholder links with your real handles.
+                        Feel free to clone my projects or push a message to my inbox!
                       </div>
                     </div>
                   </div>

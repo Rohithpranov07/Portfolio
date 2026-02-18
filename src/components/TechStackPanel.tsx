@@ -5,39 +5,44 @@ const stacks = [
   {
     title: "Frontend",
     icon: Globe,
-    items: ["React", "TypeScript", "Tailwind", "Design Systems", "Accessibility"],
+    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Three.js", "Framer Motion"],
   },
   {
     title: "Backend",
     icon: Database,
-    items: ["Node.js", "Postgres", "Redis", "REST/GraphQL", "Auth + Security"],
+    items: ["Node.js", "Express.js", "Firebase", "MongoDB", "REST APIs", "Auth Systems"],
   },
   {
-    title: "3D + Motion",
+    title: "AI & Automation",
+    icon: Cpu,
+    items: ["OpenAI APIs", "AI chat systems", "Automation scripts", "Intelligent dashboards"],
+  },
+  {
+    title: "3D & Motion",
     icon: Layers3,
-    items: ["three.js", "react-three-fiber", "Framer Motion", "Scroll-driven scenes", "Perf budgets"],
+    items: ["Three.js", "react-three-fiber", "Scroll animations", "Interactive scenes", "WebGL optimization"],
   },
   {
-    title: "Tooling",
+    title: "Tooling & DevOps",
     icon: ShieldCheck,
-    items: ["Git workflows", "CI checks", "Testing", "Lint/Types", "Release hygiene"],
+    items: ["Git/GitHub", "Docker basics", "CI/CD", "Testing", "Deployment workflows"],
   },
 ];
 
 const badges = [
-  { icon: GitBranch, label: "branch-first" },
-  { icon: Terminal, label: "ship-from-terminal" },
-  { icon: Cpu, label: "perf-minded" },
-  { icon: Braces, label: "clean-architecture" },
-  { icon: Boxes, label: "component-systems" },
-  { icon: Rocket, label: "product-focus" },
+  { icon: GitBranch, label: "branch-first development" },
+  { icon: Cpu, label: "performance optimized systems" },
+  { icon: Braces, label: "clean scalable architecture" },
+  { icon: Boxes, label: "component driven UI" },
+  { icon: Sparkles, label: "AI integrated workflows" },
+  { icon: Rocket, label: "production ready code" },
 ];
 
 export default function TechStackPanel() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
       <div className="lg:col-span-6">
-        <div className="rounded-2xl bg-card/35 border-glow backdrop-blur-md p-7">
+        <div className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-2xl p-7">
           <div className="font-mono text-xs text-muted-foreground mb-3">
             <span className="text-primary">$</span> cat stack.md
           </div>
@@ -45,7 +50,7 @@ export default function TechStackPanel() {
             Tech <span className="text-gradient-green">Stack</span>
           </h2>
           <p className="mt-4 text-muted-foreground text-lg">
-            Tools are just tools — but great tools with great taste make shipping feel cinematic.
+            I use modern, scalable technologies to build full-stack platforms, immersive 3D web experiences, and AI-powered applications — focusing on performance, clean architecture, and real-world impact.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2">
@@ -57,7 +62,7 @@ export default function TechStackPanel() {
                 viewport={{ once: true, margin: "-80px" }}
                 transition={{ delay: 0.05 * i, duration: 0.45 }}
                 whileHover={{ y: -4, rotateX: 8, rotateY: -8, scale: 1.03 }}
-                className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-secondary/45 border-glow font-mono text-xs text-foreground"
+                className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-secondary/90 border-glow font-mono text-xs text-foreground"
                 style={{ perspective: "800px" }}
               >
                 <Icon className="h-4 w-4 text-primary" />
@@ -78,7 +83,7 @@ export default function TechStackPanel() {
               viewport={{ once: true, margin: "-80px" }}
               transition={{ delay: 0.08 * i, duration: 0.55, ease: [0.25, 0.46, 0.45, 0.94] }}
               whileHover={{ y: -8, rotateY: i % 2 === 0 ? 10 : -10, rotateX: 6, scale: 1.01 }}
-              className="rounded-2xl bg-card/30 border-glow backdrop-blur-md p-5"
+              className="rounded-2xl bg-black/80 border-glow backdrop-blur-xl shadow-xl p-5"
               style={{ perspective: "1000px" }}
             >
               <div className="flex items-center justify-between mb-4">
