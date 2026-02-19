@@ -26,7 +26,7 @@
 
 ## 📖 What Is This?
 
-This is not your average portfolio. It's a **scroll-driven, immersive web experience** — built to feel less like a static resume and more like exploring a world. It uses **real-time 3D visuals**, **cinematic camera motion**, **Git-inspired terminal UI metaphors**, and **recruiter-focused storytelling** to convey who I am, what I build, and how I think.
+This is not an average portfolio. It's a **scroll-driven, immersive web experience** — built to feel less like a static resume and more like exploring a world. It uses **real-time 3D visuals**, **cinematic camera motion**, **Git-inspired terminal UI metaphors** to convey who I am, what I build, and how I think.
 
 Built as a **Full-Stack Software Engineer**, **AI & 3D Web Developer**, and **UI/UX Designer**, this portfolio reflects all three disciplines in one cohesive experience.
 
@@ -60,7 +60,6 @@ Built as a **Full-Stack Software Engineer**, **AI & 3D Web Developer**, and **UI
 
 </div>
 
-> Add screenshots of your portfolio below for best GitHub impact:
 
 | Hero Section | Projects Section |
 |:---:|:---:|
