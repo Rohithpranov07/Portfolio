@@ -14,8 +14,8 @@ function Chapter({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className="relative h-[110vh]">
-      <div className="sticky top-0 h-screen flex items-center">
+    <section id={id} className="relative min-h-screen lg:h-[110vh] flex items-center py-16 lg:py-0">
+      <div className="w-full lg:sticky lg:top-0 lg:h-screen lg:flex lg:items-center">
         <div className="w-full">{children}</div>
       </div>
     </section>
@@ -49,8 +49,8 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
         </div>
 
         {/* Floating git nav */}
-        <div className="fixed top-6 left-1/2 -translate-x-1/2 z-20 pointer-events-auto">
-          <div className="flex items-center gap-3 px-4 py-2 rounded-full bg-secondary/40 backdrop-blur-md border-glow font-mono text-xs text-muted-foreground">
+        <div className="fixed top-6 left-1/2 -translate-x-1/2 z-20 pointer-events-auto max-w-[95vw]">
+          <div className="flex items-center gap-3 px-4 py-2 rounded-full bg-secondary/40 backdrop-blur-md border-glow font-mono text-xs text-muted-foreground overflow-x-auto scrollbar-none whitespace-nowrap">
             <span className="inline-flex items-center gap-2 text-foreground">
               <span className="h-2 w-2 rounded-full bg-primary glow-green" />
               <span>~/portfolio</span>
@@ -87,11 +87,11 @@ export default function CinematicPortfolio({ projects }: { projects: DeckProject
                     <span className="text-muted-foreground/70">--profile</span>
                   </div>
 
-                  <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.02]">
+                  <h1 className="text-4xl md:text-7xl font-bold tracking-tight leading-[1.02]">
                     <span className="text-foreground">Developer Journey</span>
                     <span className="text-foreground"> in </span>
                     <span className="text-gradient-green">3D</span>
-                    <span className="block mt-2 text-green-500 font-bold text-6xl">Rohith Pranov</span>
+                    <span className="block mt-2 text-green-500 font-bold text-4xl md:text-6xl">Rohith Pranov</span>
                   </h1>
 
                   <div className="mt-4 font-mono text-sm text-primary/90">

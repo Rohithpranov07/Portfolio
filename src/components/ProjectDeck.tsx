@@ -100,8 +100,8 @@ export default function ProjectDeck({ projects }: { projects: DeckProject[] }) {
                   ))}
                 </div>
 
-                <div className="flex items-center gap-6 pt-4 border-t border-white/5">
-                  <div className="flex items-center gap-4 text-sm font-mono text-muted-foreground">
+                <div className="flex flex-wrap items-center gap-4 pt-4 border-t border-white/5">
+                  <div className="flex items-center gap-4 text-sm font-mono text-muted-foreground mr-auto">
                     <span className="flex items-center gap-1.5">
                       <Star className="w-4 h-4 text-primary" />
                       {p.stars}
