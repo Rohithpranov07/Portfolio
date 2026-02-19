@@ -64,11 +64,11 @@ Built as a **Full-Stack Software Engineer**, **AI & 3D Web Developer**, and **UI
 
 | Hero Section | Projects Section |
 |:---:|:---:|
-| ![Hero](assets/screenshots/hero-section.png) | ![Projects](assets/screenshots/projects-section.png) |
+| ![Hero](src/assets/screenshots/hero-section.png) | ![Projects](src/assets/screenshots/projects-section.png) |
 
 | Skills Section | Contact Section |
 |:---:|:---:|
-| ![Skills](assets/screenshots/skills-section.png) | ![Contact](assets/screenshots/contact-section.png) |
+| ![Skills](src/assets/screenshots/skills-section.png) | ![Contact](src/assets/screenshots/contact-section.png) |
 
 ---
 
