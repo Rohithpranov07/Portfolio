@@ -2,8 +2,8 @@
 
 # 🎥 Rohith Pranov — Cinematic Developer Portfolio
 
-<a href="https://portfolio-wheat-zeta-18.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/🌐%20Live%20Demo-portfolio--wheat--zeta--18.vercel.app-black?style=for-the-badge&logo=vercel&logoColor=white" />
+<a href="https://rohithpranov.online/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐%20Live%20Demo-portfolio-black?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 &nbsp;
 <img src="https://img.shields.io/badge/Built%20With-React%20%2B%20Three.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
@@ -18,7 +18,7 @@
 
 <br/>
 
-**🔗 [View Live Site](https://portfolio-wheat-zeta-18.vercel.app/) · [🐛 Report Bug](https://github.com/Rohithpranov07/Portfolio/issues) · [💡 Request Feature](https://github.com/Rohithpranov07/Portfolio/issues)**
+**🔗 [View Live Site](https://rohithpranov.online/) · [🐛 Report Bug](https://github.com/Rohithpranov07/Portfolio/issues) · [💡 Request Feature](https://github.com/Rohithpranov07/Portfolio/issues)**
 
 </div>
 
